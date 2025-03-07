@@ -7,7 +7,7 @@ import mkcert from 'vite-plugin-mkcert'
 
 // https://vite.dev/config/
 export default defineConfig({
-  //base: '/my-telegram-mini-app/',
+  base: '/my-telegram-mini-app/',
   plugins: [
     vue(),
     vueDevTools(),
